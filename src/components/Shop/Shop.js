@@ -11,7 +11,7 @@ const Shop = () => {
         .then(data=>setProducts(data))
     },[])
 
-    const addToCart=(product)=>{
+    const addToCart=(product)=>{        
         const newCart= [...cart, product];
         setCart(newCart);
     }
